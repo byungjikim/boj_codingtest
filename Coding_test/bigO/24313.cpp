@@ -8,7 +8,7 @@ int main()
     cin >> a >> b >> c >> d;
 
     int val = a*d + b;
-    if (val> c*d)
+    if (val> c*d || a>c)
         cout << 0 << endl;
 
     else
